@@ -14,7 +14,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp">
+        android:layout_height="216dp">
 
         <!-- START EDITING HERE -->
 
@@ -69,7 +69,7 @@
                 android:maxLines="1"
                 android:scrollbars="none"
                 android:text="___TEXT_2___"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 tools:text="My field 2" />
@@ -84,7 +84,7 @@
                 android:maxLines="1"
                 android:scrollbars="none"
                 android:text="___TEXT_3___"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
                 android:textColor="@color/white"
                 tools:text="My field 3" />
 
