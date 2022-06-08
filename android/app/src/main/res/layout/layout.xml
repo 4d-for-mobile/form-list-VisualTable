@@ -47,24 +47,21 @@
             android:alpha="0.15"
             android:background="@android:color/black" />
 
-        <LinearLayout
-            android:id="@+id/view"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginVertical="16dp"
             android:alpha="0.9"
             android:gravity="center_vertical"
-            android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
             <TextView
                 android:id="@+id/___SPECIFIC_ID_2___"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginRight="12dp"
                 android:layout_marginBottom="8dp"
                 android:maxLines="1"
                 android:scrollbars="none"
@@ -72,23 +69,26 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/___SPECIFIC_ID_3___"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 tools:text="My field 2" />
 
             <TextView
                 android:id="@+id/___SPECIFIC_ID_3___"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="16dp"
                 android:maxLines="1"
                 android:scrollbars="none"
                 android:text="___TEXT_3___"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
                 android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/___SPECIFIC_ID_2___"
                 tools:text="My field 3" />
 
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
